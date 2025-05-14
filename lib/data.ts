@@ -1,10 +1,13 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import playlistdesign from "@/public/playlistdesign.jpeg";
+import carouseldesign from "@/public/carouseldesign.jpeg";
+import posterdesign from "@/public/posterdesign.jpeg";
+import portfolio from "@/public/portfolio.png";
+import sambalbajagbejo from "@/public/sambalbajagbejo.png";
+import alamijo from "@/public/alamijo.png";
+
 
 export const links = [
   {
@@ -12,21 +15,21 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
+    name: "About & Projects",
     hash: "#about",
   },
+  // {
+  //   name: "Projects",
+  //   hash: "#projects",
+  // },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
-    name: "Skills",
+    name: "Skills & Experience",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -35,73 +38,100 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "PELAJAR",
+    location: "SMKN 7 Kab.Tangerang",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Lulusan SMKN 7 Kab.Tangerang, jurusan Akomodasi Perhotelan, dengan pengalaman di bidang pelayanan tamu, hospitality dan etika kerja profesional di industri perhotelan.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "BARISTA",
+    location: "Kopi Kurang Lebih Gading Serpong",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Bertugas meracik minuman kopi, mengoperasikan mesin espresso serta memberikan layanan ramah kepada pelanggan dalam suasana kafe yang santai dan modern.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Juli 2021 - November 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "HOUSEKEEPING",
+    location: "Starfit AEON Mall BSD",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Menjaga kebersihan dan kenyamanan lingkungan gym, memastikan fasilitas tetap higienis sesuai standar kebersihan pusat kebugaran dan area publik mall.",
+    icon: React.createElement(CgWorkAlt),
+    date: "November 2023 - September 2024",
   },
+  {
+    title: "DESAIN GRAFIS (INTERNSHIP)",
+    location: "Staradio 107,3 FM Tangerang",
+    description:
+      "Membuat desain visual untuk media sosial, promosi acara dan kebutuhan branding digital radio. Berkontribusi dalam pengembangan identitas visual yang menarik dan sesuai target audiens.",
+    icon: React.createElement(CgWorkAlt),
+    date: "November 2024 - Januari 2025",
+  },
+  
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Playlist Design",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Menciptakan desain visual yang menarik untuk playlist musik yang akan digunakan di platform streaming.",
+    tags: ["Playlist cover", "Music design", "Spotify cover design", "Playlist branding",],
+    imageUrl: playlistdesign,
+    URL:"https://drive.google.com/drive/folders/1Jkp1dXG6JyebwROyl_VnGPAia84nOm3E?usp=drive_link",
   },
   {
-    title: "rmtDev",
+    title: "Carousel Design",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Difokuskan pada pembuatan serangkaian gambar yang akan digunakan di media sosial, khususnya Instagram.",
+    tags: ["Instagram carousel", "Social media slide", "Carousel post",],
+    imageUrl: carouseldesign,
+    URL:"https://drive.google.com/drive/folders/1txsZr-TaNfzczFXE_BTWmzRmX0Rcoem3?usp=drive_link",
   },
   {
-    title: "Word Analytics",
+    title: "Poster Design",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Menciptakan poster yag menarik dan informatif untuk acara tertentu, seperti konser, festival, atau kampanye sosial.",
+    tags: ["Instagram carousel", "Social media slide", "Carousel post",],
+    imageUrl: posterdesign,
+    URL:"https://drive.google.com/drive/folders/1GtdhLL2pS6wsDDXItivFmimHyot444t0?usp=drive_link",
   },
+  {
+    title: "Website Portfolio",
+    description:
+      "Website portfolio kreatif yang menampilkan karya desain grafis,carousel, dan poster profesional",
+    tags: ["Portfolio desain", "Desain profesional", "Jasa desain online",],
+    imageUrl: portfolio,
+    URL:"https://jejakbintang.my.id/",
+  },
+   {
+    title: "Website Sambal Bajag Bejo",
+    description:
+      "Sambal Bajag Bejo, sambal khas pedas guri dari bahan alami, cocok untuk segala hidangan",
+    tags: ["Sambal", "Produk UMKM", "Sambal kemasan", "Sambal khas",],
+    imageUrl: sambalbajagbejo,
+    URL:"https://sambalbajagbejo.netlify.app/",
+  },
+   {
+    title: "Website Alamijo",
+    description:
+      "Alamijo, minuman sehat kacang hijaualami, kaya serat dan nutrisi, nikmat setiap saat",
+    tags: ["Kacang Hijau", "Sehat", "Minuman Serat", "Kaya nutrisi","Minuman herbal alami"],
+    imageUrl: alamijo,
+    URL:"https://alamijostore.netlify.app/",
+  },
+  
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Gatsby.js",
+  "Tailwind CSS",
+  "Canva",
+  "Capcut",
 ] as const;

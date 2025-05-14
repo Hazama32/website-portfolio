@@ -8,10 +8,9 @@ import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: "Bintang | Graphic Designer & Front-End Developer",
+  description: "Bintang adalah seorang Graphic Designer dan Front-End Developer yang berpengalaman.",
 };
 
 export default function RootLayout({
