@@ -6,11 +6,41 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
-  title: "Bintang | Graphic Designer & Front-End Developer",
-  description: "Bintang adalah seorang Graphic Designer dan Front-End Developer yang berpengalaman.",
+ title: 'Home | Catatan Bintang',
+  description: 'Selamat datang di Catatan Bintang - Jasa pembuatan website dan portofolio profesional.',
+  keywords: [
+    'jasa pembuatan website',
+    'web developer indonesia',
+    'portofolio web designer',
+    'jasa website murah',
+    'desain website personal',
+    'bikin website UMKM',
+    'freelancer web developer',
+    'jasa frontend developer',
+    'landing page bisnis',
+    'portofolio desain grafis'
+  ],
+  authors: [{ name: 'Bintang', url: 'https://catatanbintang.my.id' }],
+  openGraph: {
+    title: 'Bintang | Jasa Pembuatan Website & Portofolio',
+    description: 'Portofolio dan layanan pembuatan website profesional oleh Bintang.',
+    url: 'https://catatanbintang.my.id',
+    siteName: 'Catatan Bintang',
+    images: [
+      {
+        url: 'https://catatanbintang.my.id/images/preview.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Preview Website Bintang',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
@@ -20,6 +50,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <Head>
+        <meta name="google-site-verification" content=" google18f09ff0cdcb0c1e.html" />
+      </Head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >

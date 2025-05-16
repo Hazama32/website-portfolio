@@ -108,7 +108,7 @@ export const projectsData = [
    {
     title: "Website Sambal Bajag Bejo",
     description:
-      "Sambal Bajag Bejo, sambal khas pedas guri dari bahan alami, cocok untuk segala hidangan",
+      "Sambal Bajag Bejo, sambal khas pedas gurih dari bahan alami, cocok untuk segala hidangan",
     tags: ["Sambal", "Produk UMKM", "Sambal kemasan", "Sambal khas",],
     imageUrl: sambalbajagbejo,
     URL:"https://sambalbajagbejo.netlify.app/",

@@ -20,9 +20,9 @@ export default function About() {
       <SectionHeading>Tentang Saya</SectionHeading>
       <p className="mb-3">
     Saya Muhammad Bintang Insan Cemerlang, mahasiswa Teknik Informatika 
-    saya memiliki ketertarikan pada visual communication, desain digital, dan teknologi web. Terbiasa bekerja secara individu maupun tim, 
+    yang memiliki ketertarikan pada visual communication, desain digital, dan teknologi web. Terbiasa bekerja secara individu maupun tim, 
     saya siap berkontribusi dengan kreativitas dan semangat belajar yang tinggi.
-    Dengan pengalaman langsung sebagai Barista dan staf Housekeeping, saya memiliki pemahaman yang baik dalam pelayanan pelanggan, kerja sama tim, dan menjaga kualitas layanan. 
+    Dengan pengalaman langsung sebagai Barista dan staf Housekeeping dan memiliki pemahaman yang baik dalam pelayanan pelanggan, kerja sama tim, serta menjaga kualitas layanan. 
     Saya juga memiliki keterampilan kreatif dalam komunikasi visual yang saya kembangkan saat magang sebagai Desainer Grafis di Staradio 107.3 FM. Saya menguasai Canva, Microsoft Office, serta dasar-dasar pemrograman web, dan terus berupaya mengembangkan diri secara pribadi maupun profesional.
       </p>
     </motion.section>
