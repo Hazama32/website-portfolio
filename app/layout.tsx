@@ -10,8 +10,8 @@ import Head from 'next/head';
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
- title: 'Home | Catatan Bintang',
-  description: 'Selamat datang di Catatan Bintang - Jasa pembuatan website dan portofolio profesional.',
+ title: 'Catatan Bintang | Desain Web Unik & Portofolio Kreatif',
+  description: 'Ingin website yang keren dan fungsional? Catatan Bintang hadir dengan portofolio inspiratif dan jasa pembuatan situs yang sesuai kebutuhan Anda.',
   keywords: [
     'jasa pembuatan website',
     'web developer indonesia',
