@@ -8,7 +8,7 @@ import portfolio from "@/public/portfolio.png";
 import sambalbajagbejo from "@/public/sambalbajagbejo.png";
 import alamijo from "@/public/alamijo.png";
 import website1 from "@/public/website1.png";
-
+import website2 from "@/public/website2.png";
 
 export const links = [
   {
@@ -115,7 +115,7 @@ export const projectsData = [
     description:
       "Website portfolio kreatif yang menampilkan karya desain grafis,carousel, dan poster profesional",
     tags: ["Website", "Portofolio", "Jasa website", "Minimalis","Responsive website"],
-    imageUrl: alamijo,
+    imageUrl: website2,
     URL:"https://zakarial.my.id/",
   },
    {
