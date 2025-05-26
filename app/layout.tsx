@@ -13,16 +13,18 @@ export const metadata = {
  title: 'Catatan Bintang | Desain Web Unik & Portofolio Kreatif',
   description: 'Ingin website yang keren dan fungsional? Catatan Bintang hadir dengan portofolio inspiratif dan jasa pembuatan situs yang sesuai kebutuhan Anda.',
   keywords: [
-    'jasa pembuatan website',
+    'website portfolio tangerang',
+    'jasa pembuatan website portfolio tangerang',
+    'jasa pembuatan website di tangerang',
     'web developer indonesia',
-    'portofolio web designer',
-    'jasa website murah',
-    'desain website personal',
-    'bikin website UMKM',
-    'freelancer web developer',
-    'jasa frontend developer',
-    'landing page bisnis',
-    'portofolio desain grafis'
+    'portofolio web designer tangerang',
+    'jasa website murah di tangerang',
+    'desain website personal tangerang',
+    'bikin website UMKM di tangerang',
+    'freelancer web developer tangerang',
+    'jasa frontend developer di tangerang',
+    'pembuatan landing page di Tangerang',
+    'pembuatan website bisnis lokal Tangerang'
   ],
   authors: [{ name: 'Bintang', url: 'https://catatanbintang.my.id' }],
   openGraph: {

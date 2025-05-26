@@ -7,6 +7,7 @@ import posterdesign from "@/public/posterdesign.jpeg";
 import portfolio from "@/public/portfolio.png";
 import sambalbajagbejo from "@/public/sambalbajagbejo.png";
 import alamijo from "@/public/alamijo.png";
+import website1 from "@/public/website1.png";
 
 
 export const links = [
@@ -108,6 +109,22 @@ export const projectsData = [
     tags: ["Portfolio desain", "Desain profesional", "Jasa desain online",],
     imageUrl: portfolio,
     URL:"https://jejakbintang.my.id/",
+  },
+  {
+    title: "Website Portfolio",
+    description:
+      "Website portfolio kreatif yang menampilkan karya desain grafis,carousel, dan poster profesional",
+    tags: ["Website", "Portofolio", "Jasa website", "Minimalis","Responsive website"],
+    imageUrl: alamijo,
+    URL:"https://zakarial.my.id/",
+  },
+   {
+    title: "Website Portfolio",
+    description:
+      "Website portfolio kreatif yang menampilkan karya desain grafis,carousel, dan poster profesional",
+    tags: ["Website", "Portofolio", "Jasa website", "Minimalis","Responsive website"],
+    imageUrl: website1,
+    URL:"https://www.ekasaputra.my.id/",
   },
    {
     title: "Website Sambal Bajag Bejo",
